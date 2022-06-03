@@ -6,7 +6,7 @@ import Container from './Container';
 
 export default function HeaderSection() {
   return (
-    <chakra.section>
+    <chakra.section pb="64">
       <Box bgColor="secondary" textColor="onSecondary" py="10">
         <Container d={{ md: 'flex' }} flexDirection="row-reverse">
           <Box px="8" py="10" textAlign="center">
