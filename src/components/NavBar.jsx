@@ -6,7 +6,7 @@ import Container from 'components/Container';
 
 export default function NavBar() {
   return (
-    <chakra.nav>
+    <chakra.nav px="5">
       <Container py="2">
         <Icon as={BsApp} fontSize="64px" />
       </Container>
