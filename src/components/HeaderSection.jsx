@@ -29,9 +29,10 @@ export default function HeaderSection() {
               fontWeight="700"
               position="absolute"
               bottom="0"
-              left="25%"
+              left="100px"
+              whiteSpace="nowrap"
             >
-              portfolio
+              web developer
             </chakra.h1>
           </Box>
         </Container>
