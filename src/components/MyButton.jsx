@@ -3,7 +3,20 @@ import React from 'react';
 
 export default function MyButton({ children }) {
   return (
-    <chakra.button bgColor="primary" color="onPrimary" fontSize="lg" px="5" py="2">
+    <chakra.button
+      color="onSecondary"
+      borderColor="onSecondary"
+      border="2px solid"
+      fontSize="lg"
+      fontWeight="700"
+      px="7"
+      py="3"
+      _hover={{
+        bgColor: 'primary',
+        color: 'onPrimary',
+        borderColor: 'primary',
+      }}
+    >
       {children}
     </chakra.button>
   );

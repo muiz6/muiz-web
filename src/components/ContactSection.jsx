@@ -12,7 +12,7 @@ import MyButton from 'components/MyButton';
 export default function ContactSection() {
   const [formData, setFormData] = useState({});
   return (
-    <chakra.section bgColor="secondary" color="onSecondary" px="5" py="24">
+    <chakra.section bgColor="secondary" color="onSecondary" id="contact" px="5" py="24">
       <Container d={{ md: 'flex' }}>
         <Box w={{ md: '50%' }}>
           <Box h="1" bgColor="primary" w="100px" />
@@ -37,7 +37,7 @@ export default function ContactSection() {
           <Box h="5" />
           <NextLink href={makeLink(formData)} passHref>
             <Link>
-              <MyButton>Contact Me</MyButton>
+              <MyButton>CONTACT ME</MyButton>
             </Link>
           </NextLink>
         </Box>
@@ -48,8 +48,8 @@ export default function ContactSection() {
 
 function makeLink(formData) {
   return 'mailto:muizhassan83@gmail.com?'
-    + `subject=${formData.name} | Hey Muiz`
-    + `&body=${formData.message}`
+    + `subject=${formData.name ?? ''} | Hey Muiz`
+    + `&body=${formData.message ?? ''}`
     + '%0D%0A%0D%0A'
-    + `From ${formData.name}`;
+    + `From ${formData.name ?? ''}`;
 }
