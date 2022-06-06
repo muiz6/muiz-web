@@ -37,7 +37,7 @@ export default function ContactSection() {
           <Box h="5" />
           <NextLink href={makeLink(formData)} passHref>
             <Link>
-              <MyButton>CONTACT ME</MyButton>
+              <MyButton>SEND</MyButton>
             </Link>
           </NextLink>
         </Box>

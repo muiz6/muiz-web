@@ -9,6 +9,7 @@ export default function MyButton({ children }) {
       border="2px solid"
       fontSize="lg"
       fontWeight="700"
+      minW="180px"
       px="7"
       py="3"
       _hover={{

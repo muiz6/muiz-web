@@ -1,4 +1,4 @@
-import { chakra, Icon } from '@chakra-ui/react';
+import { Box, chakra, Icon } from '@chakra-ui/react';
 import React from 'react';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { RiMailLine } from 'react-icons/ri';
@@ -9,8 +9,10 @@ import NavMenu from 'components/NavMenu';
 export default function FooterSection() {
   return (
     <chakra.footer px="5" py="10">
-      <Container d="flex" justifyContent="space-between">
-        <NavMenu />
+      <Container d="flex" justifyContent={{ base: 'end', md: 'space-between' }}>
+        <Box display={{ base: 'none', md: 'block' }}>
+          <NavMenu />
+        </Box>
         <chakra.ul d="flex" mx="-3">
           <chakra.li px="3">
             <chakra.a href="mailto:muizhassan83@gmail.com">
