@@ -11,7 +11,7 @@ export default function HeaderSection() {
         <Container d={{ xl: 'flex' }} justifyContent="end">
           <Box px="8" py="10" textAlign="center" w={{ xl: '50%' }}>
             <Text fontSize="2xl" lineHeight="2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus minus quas odit perferendis illo? Facere numquam voluptates at nisi illum quaerat quia autem itaque, eligendi nobis vero ipsum! Commodi, pariatur?
+              Hey, I'm Muiz. I'm a professional web developer with more than an year of industry experience. I help businesses build their online presence. How can I help you?
             </Text>
             <Icon as={BsChevronRight} fontSize="64px" mt="10" />
           </Box>
@@ -22,7 +22,7 @@ export default function HeaderSection() {
           <Box
             bgColor="gray.400"
             height={{ base: '400px', md: '650px' }}
-            mt={{ base: '24', xl: '-420px' }}
+            mt={{ base: '24', xl: '-370px' }}
             position="relative"
             maxW={{ base: '350px', md: '570px' }}
           />
