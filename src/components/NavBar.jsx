@@ -1,4 +1,4 @@
-import { chakra, Icon } from '@chakra-ui/react';
+import { Box, chakra, Icon } from '@chakra-ui/react';
 import React from 'react';
 import { BsBox } from 'react-icons/bs';
 
@@ -10,7 +10,9 @@ export default function NavBar() {
     <chakra.nav px="5">
       <Container alignItems="center" d="flex" justifyContent="space-between" py="5">
         <Icon as={BsBox} fontSize="42px" />
-        <NavMenu />
+        <Box display={{ base: 'none', md: 'block' }}>
+          <NavMenu />
+        </Box>
       </Container>
     </chakra.nav>
   );

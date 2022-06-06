@@ -10,7 +10,7 @@ export default function ServiceSection() {
     <chakra.section id="services" px="5" py="16">
       <Container>
         <Text fontSize="5xl" fontWeight="700">My Services</Text>
-        <Text fontSize="xl" mb="10">Services I provide for my clients</Text>
+        <Text fontSize="xl" mb="10">What I can do to empower your business</Text>
         <Box d={{ md: 'flex' }} m="-3">
           <Box d={{ md: 'flex' }} p="3" w={{ md: '33.33%' }}>
             <ServiceTile
