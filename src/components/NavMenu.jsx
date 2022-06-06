@@ -8,6 +8,12 @@ export default function NavMenu() {
         <chakra.a href="#header">Home</chakra.a>
       </chakra.li>
       <chakra.li px="3">
+        <chakra.a href="#services">Services</chakra.a>
+      </chakra.li>
+      <chakra.li px="3">
+        <chakra.a href="#projects">Projects</chakra.a>
+      </chakra.li>
+      <chakra.li px="3">
         <chakra.a href="#contact">Contact</chakra.a>
       </chakra.li>
     </chakra.ul>
