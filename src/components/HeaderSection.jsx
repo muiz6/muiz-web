@@ -3,6 +3,7 @@ import React from 'react';
 import { BsChevronRight } from 'react-icons/bs';
 
 import Container from './Container';
+import * as images from '../images';
 
 export default function HeaderSection() {
   return (
@@ -20,7 +21,10 @@ export default function HeaderSection() {
       <Box px="5">
         <Container position="relative">
           <Box
+            bg={`url(${images.profile})`}
             bgColor="gray.400"
+            bgPos="center"
+            bgSize="cover"
             height={{ base: '400px', md: '650px' }}
             mt={{ base: '24', xl: '-370px' }}
             position="relative"
